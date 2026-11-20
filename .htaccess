@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(schema\.sql|composer\.(json|lock)|README\.md|create_admin\.php)$">
+  Require all denied
+</FilesMatch>
